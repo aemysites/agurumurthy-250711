@@ -13,6 +13,26 @@ footer .footer p {
   margin: 0;
 }
 
+footer .footer-social-icon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-color, #333);
+}
+
+footer .footer-social-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+footer .footer-logo {
+  display: inline-block;
+}
+
+footer .footer-logo svg {
+  width: 32px;
+  height: 32px;
+}
+
 @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
